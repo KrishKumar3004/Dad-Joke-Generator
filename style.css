@@ -1,0 +1,43 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgb(16, 227, 196)
+  );
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+.ul-container {
+  display: flex;
+  justify-content: center;
+}
+button {
+  display: flex;
+  justify-content: center;
+  background-color: #008cba; /* blue background */
+  border: none; /* remove border */
+  color: white; /* white text */
+  padding: 12px 24px; /* add padding */
+  text-align: center; /* center text */
+  text-decoration: none; /* remove underline */
+  display: inline-block; /* display as inline block */
+  font-size: 16px; /* set font size */
+  margin: 10px; /* add margin */
+  cursor: pointer; /* add pointer cursor */
+  border-radius: 8px; /* add rounded corners */
+}
+
+ul#jokes {
+  list-style-type: none; /* remove bullet points */
+  margin: 0; /* remove margin */
+  padding: 0; /* remove padding */
+}
+
+ul#jokes li {
+  font-size: 20px; /* set font size */
+  padding: 10px; /* add padding */
+  border-bottom: 1px solid #ccc; /* add bottom border */
+}
